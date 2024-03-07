@@ -1,0 +1,62 @@
+.kontak {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .kontak h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #3f3d56;
+    margin-bottom: 40px;
+  }
+  
+  .kontak .form-control {
+    border-radius: 30px;
+    border-color: #e6e6e6;
+    box-shadow: none;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 20px;
+  }
+  
+  .kontak .form-control:focus {
+    border-color: #3f3d56;
+    box-shadow: none;
+  }
+  
+  .kontak.form-label {
+    font-size: 16px;
+    font-weight: normal;
+    color: #3f3d56;
+  }
+  
+  .kontak .btn-primary {
+    background-color: #3f3d56;
+    border-color: #3f3d56;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-transform: uppercase;
+  }
+  
+  .kontak .btn-primary:hover {
+    background-color: #ffffff;
+    color: #3f3d56;
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .form-control {
+      font-size: 14px;
+    }
+  
+    .btn-primary {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
